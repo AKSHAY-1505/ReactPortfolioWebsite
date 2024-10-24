@@ -4,10 +4,10 @@ import DownloadButton from '../components/download_button'
 
 const Header = () => {
   return (
-    <div class="py-6 flex items-center justify-between">
+    <header className="py-6 flex items-center justify-between">
         <Logo />
         <DownloadButton />
-    </div>
+    </header>
   )
 }
 
