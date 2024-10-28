@@ -18,7 +18,7 @@ function Skills() {
   return (
     <div className='section'>
         <div className="flex flex-col px-8 gap-5">
-            <div className="flex items-center justify-center">
+            <div className="flex py-5 items-center justify-center">
                 <ThinAndThickTitle thin="My" thick="Skills" />
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-5 justify-between gap-10 py-5">
