@@ -28,7 +28,7 @@ function Hero() {
           </p>
         </div>
       </div>
-      <div className="absolute left-72 bottom-[68px]">
+      <div className="absolute left-64 bottom-[68px]">
       <SocialsBanner />
       </div>
     </div>
