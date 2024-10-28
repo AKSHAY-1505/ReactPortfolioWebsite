@@ -14,7 +14,7 @@ import TailwindIcon from '../assets/tailwind_icon.svg'
 
 
 
-const Skills = () => {
+function Skills() {
   return (
     <div className='section'>
         <div className="flex flex-col px-8 gap-5">

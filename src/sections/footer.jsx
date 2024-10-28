@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../components/logo";
 
-const Footer = () => {
+function Footer() {
   return (
     <div className="bg-black">
       <footer className="flex items-center justify-between">
