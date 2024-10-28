@@ -2,7 +2,7 @@ import React from "react";
 
 function ExperienceCard({ company_logo, designation, time_period, children }) {
   return (
-    <div className="flex flex-col gap-7 border border-zinc-500 rounded-[10px] px-6 py-[30px]">
+    <div className="flex flex-col gap-7 border border-zinc-500 rounded-[10px] px-6 py-[30px] hover:bg-zinc-800">
       <div className="flex justify-between">
         <div className="flex gap-[30px]">
           <img src={company_logo} className="h-8 w-8" />
