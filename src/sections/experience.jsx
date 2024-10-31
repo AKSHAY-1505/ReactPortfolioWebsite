@@ -5,10 +5,10 @@ import PlansourceLogo from "../assets/plansource_logo.jpeg";
 
 function Experience() {
   return (
-    <div className="bg-black">
+    <div className="bg-white">
       <div className="section flex flex-col gap-5 items-center justify-center">
         <div className="flex items-center justify-center py-5">
-          <ThinAndThickTitle thin="My" thick="Experience" invert />
+          <ThinAndThickTitle thin="My" thick="Experience" />
         </div>
         <div className="flex flex-col items-center justify-center gap-8 px-6 py-10 ">
           <ExperienceCard
